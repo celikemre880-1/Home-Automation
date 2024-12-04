@@ -1,0 +1,35 @@
+PROJECT: 
+Smart Lighting System: A system that controls lighting based on time of day, or natural light levels. It could be controlled via smartphone app. It has features like color-changing, and motion detection.
+
+
+
+PROJECT CONTRİBUTORS
+
+Emre Çelik 
+Mustafa Göktuğ Gültüter 
+Kemal Mehmet Kuzu
+
+
+
+REQUIREMENT LIST
+
+1. Motion Detector (PIR Sensor)
+•	Function: Detects human motion. If motion is detected, it sends a signal. Examples: HC-SR501 PIR sensor, Zigbee/Z-Wave motion sensors for smart homes.
+
+3. Ambient Light Sensor (LDR or Digital Sensor)
+•	Function: Detects whether the environment is bright or dark.
+•	Alternative: Digital sensors that measure lux levels (e.g., BH1750).
+•	The sensor determines whether it’s daylight or dark in the environment.
+
+4. Smart Relay or Smart Bulb
+•	Relay: Used to turn the light on or off based on motion and light conditions.
+
+6. Power Supply and Connections
+•	PIR and light sensors require power (typically 5V or 3.3V).
+•	Relays and bulbs need electrical connections.
+•	Necessary tools: Wires, breadboard, soldering kit for proper connections.
+
+8. Smart Home Hub:
+•	A hub based on Zigbee or Z-Wave integrates the motion and light sensors to control the automation.Examples: Home Assistant, SmartThings, Tuya, Xiaomi Gateway.
+
+
