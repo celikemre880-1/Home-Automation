@@ -38,7 +38,7 @@ module tb_home_automation();
     );
 
     initial begin
-        // Test senaryoları
+       
         $monitor("motion=%b, daylight=%b, color_select=%b => light_on=%b, light_color=%b", 
                  motion, daylight, color_select, light_on, light_color);
 
