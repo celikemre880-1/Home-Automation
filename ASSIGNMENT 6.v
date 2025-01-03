@@ -9,7 +9,7 @@ module home_automation_system (
 );
 
     
-    wire fsm_light; // FSM çıkışı
+    wire fsm_light; 
     light_control_fsm fsm (
         .clk(clk),
         .reset(reset),
